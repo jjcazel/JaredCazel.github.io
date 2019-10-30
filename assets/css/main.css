@@ -51,6 +51,25 @@ table {
 	border-spacing: 0;
 }
 
+.devicon-react-original-wordmark, .devicon-ruby-plain-wordmark, .devicon-rails-plain-wordmark, .devicon-javascript-plain, .devicon-postgresql-plain-wordmark,.devicon-amazonwebservices-plain-wordmark,
+.devicon-nodejs-plain-wordmark, .devicon-d3js-plain, .devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-express-original-wordmark, .devicon-heroku-original-wordmark  {
+	font-size: 5rem;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 5px;
+	/* padding-top: 10px; */
+}
+
+.devicon-amazonwebservices-plain-wordmark::after,
+.devicon-nodejs-plain-wordmark, .devicon-d3js-plain::before, .devicon-html5-plain-wordmark::before, .devicon-css3-plain-wordmark::before, .devicon-express-original-wordmark::before, .devicon-heroku-original-wordmark::before{
+	padding-top: 20px;
+}
+
+.redux {
+	height: 90px;
+	width: auto;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -132,6 +151,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 16px !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -192,6 +212,10 @@ input, select, textarea {
 		border: 0;
 		border-bottom: solid 2px #efefef;
 		margin: 2em 0;
+	}
+
+	.hr-resume {
+		margin: 5px;
 	}
 
 		hr.major {
@@ -2042,6 +2066,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+	
 	}
 
 		.image:before {
@@ -2075,7 +2100,7 @@ input, select, textarea {
 				color: #fff;
 				content: 'View';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 1em;
 				font-weight: 400;
 				left: 50%;
 				line-height: 2.25em;
