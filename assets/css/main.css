@@ -60,10 +60,17 @@ table {
 	/* padding-top: 10px; */
 }
 
-.devicon-amazonwebservices-plain-wordmark::after,
-.devicon-nodejs-plain-wordmark, .devicon-d3js-plain::before, .devicon-html5-plain-wordmark::before, .devicon-css3-plain-wordmark::before, .devicon-express-original-wordmark::before, .devicon-heroku-original-wordmark::before{
+.devicon-amazonwebservices-plain-wordmark:before,
+.devicon-nodejs-plain-wordmark, .devicon-d3js-plain:before, .devicon-html5-plain-wordmark:before, .devicon-css3-plain-wordmark::before, .devicon-express-original-wordmark::before, .devicon-heroku-original-wordmark::before{
 	padding-top: 20px;
 }
+
+/* .skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+} */
 
 .redux {
 	height: 90px;
