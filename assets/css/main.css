@@ -175,8 +175,9 @@ table {
 }
 
 .redux {
-  height: 90px;
+  height: 70px;
   width: auto;
+	margin-top: 10px;
 }
 
 body {
@@ -1933,6 +1934,7 @@ header h6 + p {
 
 header.major h2 {
   font-size: 2em;
+	max-width: 900px;
 }
 
 /* Form */
