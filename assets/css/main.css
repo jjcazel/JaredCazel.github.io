@@ -148,16 +148,22 @@ table {
 .devicon-html5-plain-wordmark,
 .devicon-css3-plain-wordmark,
 .devicon-express-original-wordmark,
-.devicon-heroku-original-wordmark {
+.devicon-heroku-original-wordmark,
+.devicon-typescript-plain,
+.devicon-nextjs-original-wordmark {
   font-size: 5rem;
-  /* padding-left: 6px; */
   padding-right: 6px;
   margin-right: 10px;
   margin-top: 10px;
-  /* padding-top: 10px; */
 }
 
-.devicon-amazonwebservices-plain-wordmark:before,
+.devicon-tailwindcss-original-wordmark {
+  font-size: 7rem;
+  padding-right: 6px;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+}
+  .devicon-amazonwebservices-plain-wordmark:before,
 .devicon-nodejs-plain-wordmark,
 .devicon-d3js-plain:before,
 .devicon-html5-plain-wordmark:before,
@@ -216,7 +222,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #000;
 }
 
 body.is-preload *,
@@ -236,7 +242,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: #eceaea;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -248,7 +254,6 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
   color: #49bf9d;
   text-decoration: none;
 }
@@ -261,7 +266,7 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
+  color: #c3c2c2;
   font-weight: 400;
 }
 
@@ -272,7 +277,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
-  font-size: 16px !important;
+  font-size: 18px;
 }
 
 h1,
@@ -281,10 +286,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #bfbdbd;
   font-weight: 400;
   line-height: 1em;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 h1 a,
@@ -406,10 +411,6 @@ pre code {
 
 .companyNameContainer {
   display: flex;
-}
-
-.companyLink {
-  margin-left: 10px;
 }
 
 .container.xsmall {
@@ -1952,7 +1953,7 @@ form {
 }
 
 label {
-  color: #787878;
+  color: #bab6b6;
   display: block;
   font-size: 0.9em;
   font-weight: 400;
@@ -2006,7 +2007,7 @@ select {
 }
 
 select option {
-  color: #787878;
+  color: #c2bdbd;
   background: #fff;
 }
 
@@ -2089,8 +2090,8 @@ input[type="radio"] + label:before {
 
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background: #787878;
-  border-color: #787878;
+  background: #c2bdbd;
+  border-color: #c2bdbd;
   color: #fff;
   content: "\f00c";
 }
@@ -2289,7 +2290,7 @@ input[type="radio"] + label:before {
 }
 
 .image.avatar {
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .image.avatar:before {
@@ -2297,10 +2298,12 @@ input[type="radio"] + label:before {
 }
 
 .image.avatar img {
-  border-radius: 100%;
-  /* width: 100%; */
-  height: 8em;
+  width: 100%;
+  height: auto; 
+  max-width: 100%; 
+  border-radius: 50%;
 }
+
 
 /* List */
 
@@ -2315,9 +2318,9 @@ ol li {
 }
 
 ul {
-  list-style: disc;
+  list-style-type: "→";
   margin: 0 0 2em 0;
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 
 ul li {
@@ -2542,7 +2545,7 @@ table td {
 }
 
 table th {
-  color: #787878;
+  color: #c2bdbd;
   font-size: 0.9em;
   font-weight: 400;
   padding: 0 0.75em 0.75em 0.75em;
@@ -2604,7 +2607,7 @@ input[type="button"],
   background-color: transparent;
   border-radius: 0.35em;
   border: solid 3px #efefef;
-  color: #787878 !important;
+  color: #c2bdbd !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -2785,6 +2788,7 @@ input[type="button"]:disabled,
 #header strong,
 #header b {
   color: #ffffff;
+  font-size: 2em;
 }
 
 #header h2,
@@ -2803,8 +2807,7 @@ input[type="button"]:disabled,
 }
 
 #header .image.avatar {
-  margin: 0 0 1em 0;
-  width: 12.25em;
+  margin: 0 0 1.5em 0;
 }
 
 /* Footer */
