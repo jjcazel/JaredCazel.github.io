@@ -3355,3 +3355,10 @@ body.is-touch .poptrox-popup .closer {
   justify-content: center;
   align-items: center;
 }
+
+.footer-centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
