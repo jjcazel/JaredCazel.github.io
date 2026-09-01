@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^cd /Users/jaredcazel/Developer/JaredCazel\\.github\\.io && python3 - <<'PY'\nfrom pathlib import Path\npdf = Path\\('assets/JARED CAZEL - Software Engineer resume Sep2026\\.pdf'\\)\nprint\\('exists:', pdf\\.exists\\(\\), 'size:', pdf\\.stat\\(\\)\\.st_size if pdf\\.exists\\(\\) else 0\\)\nfor mod in \\['pypdf','PyPDF2','fitz','pdfplumber'\\]:\n    try:\n        __import__\\(mod\\)\n        print\\('module', mod, 'available'\\)\n    except Exception:\n        pass\nPY$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}

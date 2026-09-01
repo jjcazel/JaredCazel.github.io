@@ -1,419 +1,475 @@
-<!DOCTYPE html>
-<!--
-   Strata by HTML5 UP
-   html5up.net | @ajlkn
-   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-   -->
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Jared Cazel Portfolio Site</title>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jared Cazel | Software Engineer</title>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+      name="description"
+      content="Jared Cazel is a senior frontend and full-stack engineer building product-focused React and Next.js experiences with strong UX, architecture, and AI-assisted workflows."
     />
     <link
       rel="icon"
       type="image/png"
       href="images/codesnippetfavicon.default"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap"
       rel="stylesheet"
-      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
     />
     <link
       rel="stylesheet"
-      type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js" defer></script>
-    <script src="assets/js/jquery.poptrox.min.js" defer></script>
-    <script src="assets/js/browser.min.js" defer></script>
-    <script src="assets/js/breakpoints.min.js" defer></script>
-    <script src="assets/js/util.js" defer></script>
-    <script src="assets/js/main.js" defer></script>
   </head>
-  <body class="is-preload">
-    <!-- Header -->
-    <header id="header">
-      <div class="inner">
-        <a href="#" class="image avatar"
-          ><img src="images/thumbs/AppAcademy_Headshot.jpeg" alt=""
-        /></a>
-        <h1 class="centeredNameTitle">
-          <strong>Jared Cazel</strong>
-          Full Stack Software Engineer<br />
-        </h1>
-      </div>
-    </header>
-    <!-- Main -->
-    <div id="main">
-      <!-- Intro -->
-      <section id="one">
-        <header class="major">
-          <h2 class="fullStackHeader">
-            Hello! My name is Jared, <br />
-            I am a Full Stack Software Engineer.
-          </h2>
-        </header>
-        <p>
-          Seasoned Software Engineer specializing in React, TypeScript, Next.js,
-          and AWS, dedicated to developing innovative applications. View my
-          curated projects and resume for further details.
-        </p>
-        <ul class="actions">
-          <li>
-            <a
-              target="_blank"
-              href="assets/JARED CAZEL_resume_Feb2025.pdf"
-              class="button"
-            >
-              Resume
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/jared-cazel"
-              class="button"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/jjcazel" class="button"
-              >GitHub</a
-            >
-          </li>
-        </ul>
-      </section>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Jared Cazel home">
+          <span class="brand-badge">JC</span>
+          <span class="brand-name">Jared Cazel</span>
+        </a>
 
-      <!-- Experience -->
-      <section id="four">
-        <h2>Experience</h2>
-        <section>
-          <header>
-            <h4>
-              Senior Software Engineer
-              <div class="companyNameContainer">
-                <a
-                  class="companyLink"
-                  href="https://www.newsbank.com/"
-                  target="_blank"
-                  >NewsBank</a
-                >
-              </div>
-            </h4>
-            <p>May 2024 - Present</p>
-            <ul>
-              <li>
-                Building and optimizing CI/CD pipelines with linting and testing
-                for Next.js and TypeScript projects using GitLab, enhancing
-                deployment efficiency and stability while reducing build times
-                by 30%.
-              </li>
-              <li>
-                Designing and implementing a secure user session flow using
-                Next.js and the jose package, encrypting and decrypting JWTs
-                stored in HTTP-only cookies to ensure seamless session
-                management with the highest security standards, eliminating
-                database dependency.
-              </li>
-              <li>
-                Leading the prototype development for transitioning a Drupal
-                application to a Next.js monorepo, designing custom modules and
-                packages to improve scalability and maintainability.
-              </li>
-              <li>
-                Establishing an internal NPM package workflow, improving code
-                reusability and consistency across teams, and reducing redundant
-                development efforts by 25%.
-              </li>
-              <li>
-                Collaborating with the Architecture team to develop Architecture
-                Decision Records (ADRs), including sequence diagrams,
-                streamlining the JIRA card creation process, and accelerating
-                development timelines by 35%.
-              </li>
-            </ul>
-          </header>
-          <header>
-            <h4>
-              Software Engineer Contractor
-              <div class="companyNameContainer">
-                <a
-                  class="companyLink"
-                  href="https://www.alleratech.com/"
-                  target="_blank"
-                  >Allera</a
-                >
-              </div>
-            </h4>
-            <p>July 2024 - January 2025</p>
-            <ul>
-              <li>
-                Developed fine-grained role-based access controls (RBAC) using
-                GraphQL and AWS Cognito, reducing access-related support tickets
-                by up to 40% and improving operational efficiency.
-              </li>
-              <li>
-                Optimized supplier template creation with TypeScript and React,
-                cutting setup time from 15 to 5 minutes (66% faster) and
-                enabling manufacturers to streamline 3x more supplier
-                documentation requests per day.
-              </li>
-              <li>
-                Developed an audit log for manufacturers to monitor supplier
-                responsiveness, improving visibility and accountability, leading
-                to a 50% faster average supplier response time.
-              </li>
-              <li>
-                Implemented bulk editing, copying, and PDF export
-                functionalities using custom React hooks and npm packages,
-                saving users 2+ hours per week and improving reporting clarity
-                and efficiency.
-              </li>
-              <li>
-                Built support for reference images in QA workflows with AWS
-                Lambda, S3, and GraphQL mutations, reducing QA inspection time
-                by up to 30% and enhancing defect detection rates.
-              </li>
-            </ul>
-          </header>
-          <header>
-            <h4>
-              Senior Software Engineer
-              <div class="companyNameContainer">
-                <a class="companyLink" href="https://usetmx.com" target="_blank"
-                  >TMX - The Media Exchange</a
-                >
-              </div>
-            </h4>
-            <p>January 2020 - November 2023</p>
-            <ul>
-              <li>
-                Developed the MVP of a B2C platform at an early-stage startup,
-                leading a team of developers under tight deadlines to secure
-                $1.5 million in seed funding, underscoring my capability to
-                drive projects from concept to funding.
-              </li>
-              <li>
-                Built a custom file uploader using Redux and Ajax with AWS
-                Cognito authentication, quadrupling user-generated content and
-                streamlining the submission of newsmaker contact info.
-              </li>
-              <li>
-                Crafted an enhanced onboarding process integrating referral
-                codes and targeting new client segments, greatly increasing the
-                user base to over 3000. Adapted legacy React code with
-                localStorage and JWT for secure, efficient sign-ins,
-                significantly boosting user engagement.
-              </li>
-              <li>
-                Optimized React app web performance, achieving a reduction in
-                page load time to under 2 seconds through lazy loading, image
-                optimization, and enhanced query speeds.
-              </li>
-              <li>
-                Built CI/CD pipelines for syntax error detection, linting, and
-                Jest testing, securing "bug-free" deployments and streamlined
-                delivery processes.
-              </li>
-              <li>
-                Owned frontend development by modernizing the monolithic
-                codebase with ES6 JavaScript and React functional components,
-                cutting development time and boosting maintainability.
-              </li>
-              <li>
-                Achieved a 100 SEO score in Lighthouse by fixing failed HTTP
-                status codes, optimizing link crawlability, and using semantic
-                HTML, boosting website visibility and accessibility.
-              </li>
-              <li>
-                Optimized frontend responsiveness by focusing on API design with
-                the backend team and using React Query for efficient data
-                fetching and caching, reducing query times and minimizing
-                network traffic.
-              </li>
-            </ul>
-          </header>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#work">Work</a>
+          <a href="#toolbox">Toolbox</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a
+          class="button button-primary"
+          href="assets/JARED CAZEL - Software Engineer resume Sep2026.pdf"
+          target="_blank"
+          rel="noreferrer"
+          >Resume</a
+        >
+      </header>
+
+      <main id="top">
+        <section class="hero panel">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              Senior frontend and full-stack engineer • React • Next.js •
+              TypeScript • AI-native product work
+            </p>
+            <h1>Product-minded engineering for fast-moving teams.</h1>
+            <p class="lede">
+              I build clear, useful, and well-crafted product experiences from
+              frontend architecture to backend ownership. I care about shipping
+              features that feel thoughtful, perform well, and hold up over
+              time.
+            </p>
+
+            <div class="cta-row">
+              <a
+                class="button button-primary"
+                href="assets/JARED CAZEL - Software Engineer resume Sep2026.pdf"
+                target="_blank"
+                rel="noreferrer"
+                >View resume</a
+              >
+              <a
+                class="button button-secondary"
+                href="https://www.linkedin.com/in/jared-cazel"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+              <a
+                class="button button-secondary"
+                href="https://github.com/jjcazel"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="portrait-frame">
+              <img
+                src="images/thumbs/Cazel_Jared_298- 17846.jpg"
+                alt="Portrait of Jared Cazel"
+              />
+            </div>
+          </div>
         </section>
-      </section>
 
-      <!-- Projects -->
-      <section id="two">
-        <h2>Projects</h2>
-        <div class="row">
-          <article class="col-6 col-12-xsmall work-item">
-            <a
-              href="images/Screen Shot 2019-11-18 at 2.45.06 PM.png"
-              class="image fit thumb"
-              ><img
-                src="images/Screen Shot 2019-11-18 at 2.45.06 PM.png"
-                alt=""
-            /></a>
-            <h3>ViewTube</h3>
-            <p>
-              <strong>
-                Led the development of ViewTube, a YouTube-like full-stack
-                application, using React, Redux, JavaScript (ES6), Ruby on
-                Rails, and PostgreSQL, focusing on clean, maintainable code
-                through Object-Oriented Programming principles.
-              </strong>
-            </p>
-            <hr class="hr-resume" />
-            <p>
-              Developed a secure user authentication system with BCrypt and
-              PostgreSQL, enhancing data security and user experience.
-            </p>
-            <hr class="hr-resume" />
-            <p>
-              Crafted an intuitive and responsive UI, mastering asynchronous API
-              interactions and deepening proficiency in React's state management
-              and Virtual DOM manipulation, significantly enhancing the user
-              experience by optimizing for speed and interactivity in the
-              browser's DOM.
-            </p>
-            <hr class="hr-resume" />
-            <p>
-              Implemented Rails Active Storage with AWS S3, improving video
-              upload reliability and user satisfaction; managed a comprehensive
-              relational database schema with PostgreSQL for efficient data and
-              user management.
-            </p>
-            <!-- <a target="_blank" href="https://viewtube1.herokuapp.com/#/" class="button">Visit Site</a> -->
-          </article>
-          <article class="col-6 col-12-xsmall work-item">
-            <a href="images/ezgif.com-gif-maker.gif" class="image fit thumb"
-              ><img src="images/ezgif.com-gif-maker.gif" alt=""
-            /></a>
-            <h3>Spotify Danceability Visualizer</h3>
-            <p>
-              <strong>
-                Discover Your Music's Movement: The Spotify Danceability
-                Visualizer offers an immersive way to explore your musical
-                tastes by mapping out the top 50 tracks you've played the most,
-                based on their danceability.
-              </strong>
-            </p>
-            <hr class="hr-resume" />
-            <p>
-              Seamless Integration & Intuitive Visualization: Log in with your
-              Spotify account to access a personalized danceability graph,
-              crafted using the d3.js library for dynamic, interactive data
-              presentation. With secure OAuth authentication, your listening
-              history is just a click away, visualized on an engaging HTML
-              canvas graph.
-            </p>
-            <hr class="hr-resume" />
-            <p>
-              Simplified Experience & Technical Innovation: I've streamlined the
-              user journey from Spotify login to data visualization using
-              RESTful routing in Express.js, ensuring a seamless experience.
-            </p>
+        <section class="about panel" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Senior frontend and full-stack product engineering.</h2>
+          </div>
 
-            <br />
-            <!-- <a
-              target="_blank"
-              href="https://js-project-danceability.vercel.app/"
-              class="button"
-            >
-              Visit Site
-            </a> -->
-          </article>
+          <div class="about-layout">
+            <p>
+              I’m a senior software engineer with 6+ years building modern web
+              applications with React, Next.js, TypeScript, Node.js, PostgreSQL,
+              Prisma, AWS, and CI/CD. I work best where product, UX, and
+              engineering intersect.
+            </p>
+            <p>
+              My focus is on shipping features that are clear, fast, and useful
+              to real users. That includes frontend architecture, server-driven
+              data flows, caching, testing, API work, and the day-to-day product
+              work it takes to make a complex workflow feel simple.
+            </p>
+          </div>
+        </section>
+
+        <section class="ai-workflow panel" id="ai-workflow">
+          <div class="section-heading">
+            <p class="eyebrow">How I build with AI</p>
+            <h2>AI speeds up the work, but I still own the outcome.</h2>
+          </div>
+
+          <div class="workflow-grid">
+            <div class="workflow-card">
+              <h3>Explore quickly</h3>
+              <p>
+                I use tools like Claude Code, Cursor, Copilot, and ChatGPT to
+                map a codebase, test assumptions, and speed up discovery without
+                sacrificing judgment.
+              </p>
+            </div>
+            <div class="workflow-card">
+              <h3>Ship with intent</h3>
+              <p>
+                I use AI to scaffold patterns, generate tests, debug edge cases,
+                and tighten refactors, then validate the final code with type
+                checks and product behavior.
+              </p>
+            </div>
+            <div class="workflow-card">
+              <h3>Keep quality high</h3>
+              <p>
+                The goal is not to outsource design or engineering judgment. It
+                is to move faster while keeping architecture, correctness,
+                maintainability, and user experience in focus.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="experience panel" id="experience">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Product work with strong frontend and full-stack ownership.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="role-card">
+              <div class="role-header">
+                <div>
+                  <p class="role-title">Founding Software Engineer</p>
+                  <a
+                    href="https://www.sightlineos.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >SightlineOS</a
+                  >
+                </div>
+                <span class="role-date">2026</span>
+              </div>
+              <ul>
+                <li>
+                  Led full-stack engineering for a $3M pre-seed restaurant
+                  supply-chain startup, owning product delivery for more than
+                  eight features across the platform.
+                </li>
+                <li>
+                  Built AI forecasting experiences that translated complex
+                  supply-chain data into actionable inventory and purchasing
+                  recommendations.
+                </li>
+                <li>
+                  Shipped production LLM features with Next.js, React, and
+                  TanStack Query, improving query latency by 20% while keeping
+                  the experience responsive.
+                </li>
+                <li>
+                  Architected Prisma data models and workflows for purchase
+                  orders, demand forecasts, inventory positions, and operational
+                  metrics.
+                </li>
+              </ul>
+            </article>
+
+            <article class="role-card">
+              <div class="role-header">
+                <div>
+                  <p class="role-title">Senior Software Engineer</p>
+                  <a
+                    href="https://www.newsbank.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >NewsBank</a
+                  >
+                </div>
+                <span class="role-date">2024 — 2026</span>
+              </div>
+              <ul>
+                <li>
+                  Engineered CI/CD pipelines for Next.js and TypeScript
+                  monorepos using GitLab, reducing build times by 30% and
+                  improving release reliability.
+                </li>
+                <li>
+                  Built a secure, database-free session layer with Next.js
+                  middleware and the jose package, encrypting JWTs in HTTP-only
+                  cookies.
+                </li>
+                <li>
+                  Led the migration of legacy Drupal applications into a modern
+                  Next.js monorepo and created reusable internal packages to
+                  improve scalability.
+                </li>
+              </ul>
+            </article>
+
+            <article class="role-card">
+              <div class="role-header">
+                <div>
+                  <p class="role-title">Software Engineer</p>
+                  <a
+                    href="https://www.alleratech.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Allera</a
+                  >
+                </div>
+                <span class="role-date">2024 — 2025</span>
+              </div>
+              <ul>
+                <li>
+                  Developed fine-grained role-based access controls with GraphQL
+                  and AWS Cognito, cutting support tickets by 40%.
+                </li>
+                <li>
+                  Built supplier template and audit-log systems in TypeScript
+                  and React, reducing setup time by 66% and improving supplier
+                  response times by 50%.
+                </li>
+                <li>
+                  Implemented bulk editing, copying, and PDF export workflows
+                  that saved users 2+ hours per week.
+                </li>
+              </ul>
+            </article>
+
+            <article class="role-card">
+              <div class="role-header">
+                <div>
+                  <p class="role-title">Senior Software Engineer</p>
+                  <a href="https://usetmx.com" target="_blank" rel="noreferrer"
+                    >TMX</a
+                  >
+                </div>
+                <span class="role-date">2020 — 2023</span>
+              </div>
+              <ul>
+                <li>
+                  Led development of the MVP newsroom dashboard and helped
+                  secure $1.5M in seed funding through product execution.
+                </li>
+                <li>
+                  Scaled the user base to 5,000+ through feature expansion,
+                  including referral onboarding and auth improvements.
+                </li>
+                <li>
+                  Increased user-generated content 4x with a custom uploader,
+                  AWS Cognito authentication, and a simplified submission flow.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="projects panel" id="work">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Product features built to make real workflows easier.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-tag">AI product</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3>Forecasting and inventory intelligence</h3>
+              <p>
+                Built AI-powered forecasting flows for a restaurant supply-chain
+                startup, turning messy operational data into clearer
+                recommendations for purchasing and inventory decisions.
+              </p>
+              <ul>
+                <li>Next.js + React + LLM workflows</li>
+                <li>Supply-chain decision support</li>
+                <li>Faster, more actionable planning</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-tag">Workflow optimization</span>
+                <span class="project-year">2024</span>
+              </div>
+              <h3>Supplier operations tooling</h3>
+              <p>
+                Created internal tools for supplier workflows, bulk updates,
+                audit tracking, and operational visibility so teams could move
+                faster without sacrificing accuracy.
+              </p>
+              <ul>
+                <li>TypeScript + React + GraphQL</li>
+                <li>RBAC and bulk workflows</li>
+                <li>Operational process improvement</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span class="project-tag">Platform modernization</span>
+                <span class="project-year">2024</span>
+              </div>
+              <h3>Next.js foundation</h3>
+              <p>
+                Helped modernize legacy workflows into a reusable, scalable
+                frontend foundation that made future product work easier.
+              </p>
+              <ul>
+                <li>Next.js architecture</li>
+                <li>CI/CD and frontend standards</li>
+                <li>Reusable product patterns</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="toolbox panel" id="toolbox">
+          <div class="section-heading">
+            <p class="eyebrow">Toolbox</p>
+            <h2>Core strengths across product, frontend, and platform work.</h2>
+          </div>
+
+          <div class="skill-grid" aria-label="Technology skills">
+            <div class="skill-group">
+              <h3>Frontend</h3>
+              <div class="skill-cloud">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Sass</span>
+                <span>Tailwind</span>
+                <span>Material UI</span>
+                <span>Accessibility</span>
+                <span>Design systems</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Backend & data</h3>
+              <div class="skill-cloud">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>PostgreSQL</span>
+                <span>Prisma</span>
+                <span>MongoDB</span>
+                <span>SQL</span>
+                <span>GraphQL</span>
+                <span>REST APIs</span>
+                <span>JWT</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Cloud & DevOps</h3>
+              <div class="skill-cloud">
+                <span>AWS</span>
+                <span>Lambda</span>
+                <span>API Gateway</span>
+                <span>S3</span>
+                <span>CloudWatch</span>
+                <span>Amplify</span>
+                <span>Vercel</span>
+                <span>CI/CD</span>
+                <span>Git</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Testing & quality</h3>
+              <div class="skill-cloud">
+                <span>Jest</span>
+                <span>Playwright</span>
+                <span>Testing library</span>
+                <span>Type safety</span>
+                <span>Code review</span>
+                <span>Performance</span>
+                <span>Observability</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>AI workflow</h3>
+              <div class="skill-cloud">
+                <span>Cursor</span>
+                <span>Claude Code</span>
+                <span>Copilot</span>
+                <span>ChatGPT</span>
+                <span>AI-assisted refactors</span>
+                <span>Test generation</span>
+                <span>Code exploration</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact panel" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something thoughtful.</h2>
+          </div>
+
+          <div class="contact-row">
+            <p>
+              Open to senior frontend, full-stack, and product engineering roles
+              in NYC, hybrid, or remote settings.
+            </p>
+            <a href="mailto:jjcazel@gmail.com">jjcazel@gmail.com</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-links">
+          <a
+            href="https://www.linkedin.com/in/jared-cazel"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/jjcazel" target="_blank" rel="noreferrer"
+            >GitHub</a
+          >
+          <a href="mailto:jjcazel@gmail.com">Email</a>
         </div>
-      </section>
-
-      <!-- Skills -->
-      <section id="five">
-        <h2>My Toolbox</h2>
-        <div class="skills">
-          <i class="devicon-react-original-wordmark colored"></i>
-          <i class="devicon-typescript-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-nextjs-original-wordmark"></i>
-          <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <i class="devicon-redux-plain colored"></i>
-          <i class="devicon-nodejs-plain-wordmark colored"></i>
-          <i class="devicon-ruby-plain-wordmark colored"></i>
-          <i class="devicon-rails-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-        </div>
-      </section>
-
-      <!-- Three -->
-      <section id="three">
-        <h2>Get In Touch</h2>
-        <p>Please reach out to me on LinkedIn or by email antyime!</p>
-        <ul class="labeled-icons">
-          <li>
-            <h3 class="icon solid fa-envelope">
-              <span class="label">Email</span>
-            </h3>
-            <a target="_blank" href="mailto:jjcazel@gmail.com"
-              >jjcazel@gmail.com</a
-            >
-          </li>
-        </ul>
-      </section>
+        <p>© <span id="currentYear">2026</span> Jared Cazel</p>
+      </footer>
     </div>
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="inner footer-centered">
-        <ul class="icons">
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/jared-cazel"
-              class="fab fa-linkedin-in"
-              ><span class="label"></span
-            ></a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://github.com/jjcazel"
-              class="icon brands fa-github"
-              ><span class="label">Github</span></a
-            >
-          </li>
-          <!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-          <li>
-            <a
-              target="_blank"
-              href="mailto:jjcazel@gmail.com"
-              class="icon solid fa-envelope"
-              ><span class="label">Email</span></a
-            >
-          </li>
-        </ul>
-        <ul class="copyright">
-          <li>&copy; Jared Cazel 2020 - <span id="currentYear"></span></li>
-        </ul>
-        <script>
-          function updateDate() {
-            // Get current year and date
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear();
-            const currentDateFormatted = `${
-              currentDate.getMonth() + 1
-            }/${currentDate.getDate()}/${currentYear}`;
 
-            // Update HTML element with current year and date
-            document.getElementById(
-              "currentYear"
-            ).textContent = `${currentYear}`;
-            document.getElementById("currentDate").textContent =
-              currentDateFormatted;
-          }
-
-          // Call updateDate when the window has fully loaded
-          window.addEventListener("load", updateDate);
-        </script>
-      </div>
-    </footer>
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
   </body>
 </html>
