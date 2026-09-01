@@ -20,6 +20,11 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 0;
+}
+
+section[id] {
+  scroll-margin-top: 0;
 }
 
 body {
@@ -137,7 +142,9 @@ h3 {
 }
 
 .brand-name {
+  font-size: 1.05rem;
   letter-spacing: -0.04em;
+  font-weight: 700;
 }
 
 .nav {
@@ -338,7 +345,7 @@ h3 {
   justify-content: space-between;
   align-items: end;
   gap: 16px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .role-title {
@@ -346,6 +353,12 @@ h3 {
   color: var(--text);
   font-size: 1.08rem;
   font-weight: 700;
+}
+
+.role-context {
+  margin-bottom: 0.9rem;
+  color: var(--muted);
+  font-size: 0.98rem;
 }
 
 .role-header a {
@@ -371,6 +384,32 @@ h3 {
   margin-bottom: 0.6rem;
 }
 
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.tech-tags span {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  color: var(--text);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.impact-line {
+  margin-top: 1rem;
+  color: #cfe0ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -394,6 +433,10 @@ h3 {
 .project-card:hover {
   transform: translateY(-4px);
   border-color: rgba(139, 92, 246, 0.35);
+}
+
+.project-card .impact-line {
+  margin-top: 0.9rem;
 }
 
 .project-topline {
